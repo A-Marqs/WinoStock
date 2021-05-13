@@ -30,7 +30,7 @@ namespace WinoStock
                     {
 
                         con.Open();
-                        string query = "select id,user,password from users WHERE user ='" + txtUsuario.Text + "' AND password ='" + txtSenha.Text + "'";
+                        string query = "SELECT id,user,password FROM users WHERE user ='" + txtUsuario.Text + "' AND password ='" + txtSenha.Text + "'";
                         MySqlDataReader row;
                         row = con.ExecuteReader(query);
                         if (row.HasRows)
