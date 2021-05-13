@@ -41,6 +41,8 @@ namespace WinoStock
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
+            this.lblX = new System.Windows.Forms.Label();
+            this.lblMin = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -166,11 +168,35 @@ namespace WinoStock
             this.txtSenha.Size = new System.Drawing.Size(203, 23);
             this.txtSenha.TabIndex = 11;
             // 
+            // lblX
+            // 
+            this.lblX.AutoSize = true;
+            this.lblX.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblX.Location = new System.Drawing.Point(584, 10);
+            this.lblX.Name = "lblX";
+            this.lblX.Size = new System.Drawing.Size(18, 20);
+            this.lblX.TabIndex = 12;
+            this.lblX.Text = "X";
+            this.lblX.Click += new System.EventHandler(this.lblX_Click);
+            // 
+            // lblMin
+            // 
+            this.lblMin.AutoSize = true;
+            this.lblMin.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMin.Location = new System.Drawing.Point(562, 10);
+            this.lblMin.Name = "lblMin";
+            this.lblMin.Size = new System.Drawing.Size(15, 20);
+            this.lblMin.TabIndex = 13;
+            this.lblMin.Text = "_";
+            this.lblMin.Click += new System.EventHandler(this.lblMin_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(612, 425);
+            this.Controls.Add(this.lblMin);
+            this.Controls.Add(this.lblX);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnLogin);
@@ -206,6 +232,8 @@ namespace WinoStock
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.Label lblX;
+        private System.Windows.Forms.Label lblMin;
     }
 }
 

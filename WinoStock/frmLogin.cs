@@ -21,6 +21,16 @@ namespace WinoStock
             InitializeComponent();
         }
 
+        private void lblMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void lblX_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             {
