@@ -162,6 +162,7 @@ namespace WinoStock
             // 
             this.txtSenha.Location = new System.Drawing.Point(286, 244);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(203, 23);
             this.txtSenha.TabIndex = 11;
             // 
