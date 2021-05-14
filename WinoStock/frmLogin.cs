@@ -52,6 +52,10 @@ namespace WinoStock
                                 password = row["password"].ToString();
                             }
                             MessageBox.Show("Bem-vindo " + user);
+                            this.Hide();
+                            var menu = new frmMenu();
+                            menu.Show();
+
                         }
                         else
                         {
