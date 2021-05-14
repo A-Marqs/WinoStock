@@ -8,18 +8,11 @@ using System.Windows.Forms;
 
 namespace WinoStock
 {
-    public partial class frmMenu : Form
+    public partial class frmCadastro : Form
     {
-        public frmMenu()
+        public frmCadastro()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            var login = new frmLogin();
-            this.Close();
-            login.Close();
         }
     }
 }
