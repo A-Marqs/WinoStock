@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Diagnostics;
 
 namespace WinoStock
 {
@@ -24,6 +25,16 @@ namespace WinoStock
         private void lblMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void lblDev_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
 
         private void lblX_Click(object sender, EventArgs e)

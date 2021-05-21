@@ -24,3 +24,4 @@ C:\WinoStock\WinoStock\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
 C:\WinoStock\WinoStock\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
 C:\WinoStock\WinoStock\obj\Debug\netcoreapp3.1\WinoStock.csproj.CopyComplete
 C:\WinoStock\WinoStock\obj\Debug\netcoreapp3.1\WinoStock.frmMenu.resources
+C:\WinoStock\WinoStock\obj\Debug\netcoreapp3.1\WinoStock.frmCadastro.resources
